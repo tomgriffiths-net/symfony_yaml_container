@@ -1,2 +1,2 @@
 # symfony_yaml_container
-A container package for the php symfony/yaml library
+A PHP-CLI container package for the php symfony/yaml library
