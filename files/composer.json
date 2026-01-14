@@ -1,0 +1,17 @@
+{
+    "name": "tomgriffiths_net/symfony_yaml_container",
+    "description": "A PHP-CLI container package for symfony/yaml",
+    "type": "library",
+    "require": {
+        "symfony/yaml": "^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {}
+    },
+    "authors": [
+        {
+            "name": "Tom Griffiths"
+        }
+    ]
+}
