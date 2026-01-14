@@ -57,9 +57,9 @@ class symfony_yaml_container{
      * @param int                       $indent The amount of spaces to use for indentation of nested nodes
      * @param int-mask-of<self::DUMP_*> $flags  A bit field of DUMP_* constants to customize the dumped YAML string
      */
-    public static function dump(mixed $input, int $inline=2, int $indent=4, int $flags=0):string|false{
+    public static function dump(mixed $input, int $inline=PHP_INT_MAX, int $indent=2, int $flags=\Symfony\Component\Yaml\Yaml::DUMP_EMPTY_ARRAY_AS_SEQUENCE):string|false{
         try{
-            return \Symfony\Component\Yaml\Yaml::dump($input, $inline=2, $indent=4, $flags=0);
+            return \Symfony\Component\Yaml\Yaml::dump($input, $inline, $indent, $flags);
         }
         catch(\Symfony\Component\Yaml\Exception\ParseException $e){
             return false;

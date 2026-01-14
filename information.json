@@ -1,6 +1,6 @@
 {
     "id_name": "symfony_yaml_container",
-    "name": "Synfony Yaml container",
+    "name": "Symfony Yaml container",
     "version": 1,
     "author": "tom",
     "description": "A container package for the php symfony\/yaml library",
